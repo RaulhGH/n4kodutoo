@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+
+body{
+  background-color: rgb(235, 231, 231);
+}
+
+.hakklihakaste{
+    font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      color: rgb(22, 99, 241);
+      position: relative;
+      animation: head;
+animation-duration: 3s;
+}
+
+@keyframes head {
+  0%{left: -1500px}
+  100%{left: 0px}
+  
+}
+
+.main{
+  border: 2px solid black;
+}
+
+.table{
+    border: 2px solid black;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    animation: top;
+    animation-duration: 3s;
+}
+
+@keyframes top {
+  0%{top: -200px}
+  100%{top: 0px}
+}
+img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.sbs{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 400px;
+  animation: img;
+  animation-duration: 3s;
+
+}
+@keyframes img {
+0%{rotate: 90deg}
+100%{rotate: 0deg}    
+}
+.footer{
+  font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
